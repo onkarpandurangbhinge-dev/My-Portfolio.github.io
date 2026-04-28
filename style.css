@@ -1,7 +1,7 @@
 body {
-  margin: 0;
-  font-family: Arial;
-  transition: 0.3s;
+  background-color: black;
+  color: #00ff00;
+  line-height: 1.6;
 }
 
 header {
