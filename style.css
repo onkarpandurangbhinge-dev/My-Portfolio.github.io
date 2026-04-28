@@ -25,9 +25,10 @@ header h1 {
 }
 
 nav a {
-  margin: 10px;
-  color: white;
+  margin: 0 10px;
+  color: #00ff00;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .section {
