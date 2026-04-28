@@ -1,3 +1,11 @@
+/* Hacker Theme */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", monospace;
+}
+
 body {
   background-color: black;
   color: #00ff00;
