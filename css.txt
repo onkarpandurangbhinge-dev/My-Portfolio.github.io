@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+    transition: 0.3s;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.projects {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Dark Mode */
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark .card {
+    background: #1e1e1e;
+}

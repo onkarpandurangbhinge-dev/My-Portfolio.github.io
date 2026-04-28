@@ -1,0 +1,13 @@
+function showMessage() {
+    let name = document.getElementById("name").value;
+    
+    if(name === "") {
+        document.getElementById("msg").innerText = "Please enter your name!";
+    } else {
+        document.getElementById("msg").innerText = "Hello " + name + ", thanks for visiting!";
+    }
+}
+
+function toggleDarkMode() {
+    document.body.classList.toggle("dark");
+}
