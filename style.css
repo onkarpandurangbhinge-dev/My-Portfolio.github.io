@@ -25,8 +25,9 @@ header {
   top: 0;
 }
 
+/* 🔥 Changed here */
 header h1 {
-  color: #2563eb;
+  color: #111;  /* was #2563eb */
 }
 
 /* Navbar */
@@ -38,8 +39,9 @@ nav a {
   transition: 0.3s;
 }
 
+/* 🔥 Changed hover color */
 nav a:hover {
-  color: #2563eb;
+  color: #000; /* was blue */
 }
 
 /* Sections */
