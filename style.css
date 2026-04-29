@@ -21,6 +21,7 @@ header {
   padding: 15px 8%;
   background: #f1f1f1;
   border-bottom: 1px solid #ccc;
+  transition: 0.3s;
 }
 
 header h1 {
@@ -32,6 +33,7 @@ nav a {
   margin: 0 10px;
   color: #000;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 nav a:hover {
@@ -43,7 +45,6 @@ nav a:hover {
   padding: 40px 8%;
   text-align: center;
 }
-
 .profile {
   width: 150px;
   border-radius: 50%;
