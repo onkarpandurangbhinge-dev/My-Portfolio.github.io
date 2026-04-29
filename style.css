@@ -31,9 +31,11 @@ nav a {
   transition: 0.3s;
 }
 
-.section {
-  padding: 40px;
-  text-align: center;
+/* Titles */
+.section-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #00ff00;
 }
 
 .profile {
