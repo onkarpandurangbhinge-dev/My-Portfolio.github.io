@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, sans-serif; /* simple default font */
 }
 
 /* Body */
 body {
-  background: #f9fafb;
-  color: #333;
+  background: #ffffff;   /* plain white */
+  color: #000000;        /* black text */
   line-height: 1.6;
 }
 
@@ -19,36 +19,31 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 8%;
-  background: white;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-  position: sticky;
-  top: 0;
+  background: #f1f1f1;   /* light grey (default look) */
+  border-bottom: 1px solid #ccc;
 }
 
-/* 🔥 Changed here */
 header h1 {
-  color: #111;  /* was #2563eb */
+  color: #000;  /* normal black */
 }
 
 /* Navbar */
 nav a {
-  margin: 0 12px;
-  color: #333;
+  margin: 0 10px;
+  color: #000;
   text-decoration: none;
-  font-weight: 500;
-  transition: 0.3s;
 }
 
-/* 🔥 Changed hover color */
 nav a:hover {
-  color: #000; /* was blue */
+  text-decoration: underline; /* simple hover */
 }
 
 /* Sections */
 .section {
-  padding: 60px 8%;
+  padding: 40px 8%;
   text-align: center;
 }
+
 .profile {
   width: 150px;
   border-radius: 50%;
