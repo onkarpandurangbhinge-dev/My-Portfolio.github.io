@@ -6,11 +6,15 @@
   font-family: Arial, sans-serif;
 }
 
-/* Body (Light Mode Default) */
+/* Elegant Light Theme */
 body {
-  background: #ffffff;
-  color: #000000;
-  line-height: 1.6;
+  background: #f5f7fb;
+  color: #222831;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 /* Header */
