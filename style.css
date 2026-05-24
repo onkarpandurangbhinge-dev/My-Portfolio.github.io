@@ -241,3 +241,35 @@ body.dark footer{
   }
 
 }
+
+/* ================= LIGHT MODE FIX ================= */
+
+body.dark{
+  background: #ffffff;
+  color: #111827;
+}
+
+body.dark header{
+  background: #f1f5f9;
+}
+
+body.dark nav a{
+  color: #111827;
+}
+
+body.dark .card,
+body.dark .project-box{
+  background: #e2e8f0;
+  color: #111827;
+}
+
+body.dark footer{
+  background: #f1f5f9;
+  color: #111827;
+}
+
+body.dark p,
+body.dark h2,
+body.dark h3{
+  color: #111827;
+}
