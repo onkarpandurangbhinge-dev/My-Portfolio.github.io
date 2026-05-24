@@ -1,35 +1,23 @@
-// script.js
-
-// ================= DARK MODE =================
-
-const toggleBtn = document.getElementById("toggleBtn");
-
-toggleBtn.onclick = () => {
+// Dark mode toggle
+document.getElementById("darkToggle").addEventListener("click", () => {
   document.body.classList.toggle("dark");
+});
 
-  // Change icon
-  if(document.body.classList.contains("dark")){
-    toggleBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
-  }
-  else{
-    toggleBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
-  }
-};
-
-// ================= POPUP ANIMATION =================
-
-const sections = document.querySelectorAll(".hidden");
+// Scroll animation
+const sections = document.querySelectorAll(".section");
 
 window.addEventListener("scroll", () => {
-
-  sections.forEach(section => {
-
-    const sectionTop = section.getBoundingClientRect().top;
-
-    if(sectionTop < window.innerHeight - 100){
-      section.classList.add("show");
+  sections.forEach(sec => {
+    const pos = sec.getBoundingClientRect().top;
+    if (pos < window.innerHeight - 100) {
+      sec.style.opacity = 1;
+      sec.style.transform = "translateY(0)";
     }
-
   });
+});
 
+sections.forEach(sec => {
+  sec.style.opacity = 0;
+  sec.style.transform = "translateY(50px)";
+  sec.style.transition = "0.6s";
 });
